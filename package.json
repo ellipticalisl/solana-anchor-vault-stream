@@ -1,0 +1,34 @@
+{
+  "name": "@solana-vault/stream-sdk",
+  "version": "1.0.0",
+  "description": "Time-weighted streaming payment & linear vesting vault protocol on Solana built with Anchor framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src/ --ext .ts"
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "streaming-payments",
+    "vesting-vault",
+    "spl-token",
+    "web3"
+  ],
+  "author": "ellipticalisl",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.1",
+    "@solana/spl-token": "^0.4.8",
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  }
+}
